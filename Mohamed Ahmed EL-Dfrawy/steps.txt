@@ -12,3 +12,10 @@
 
 7- save 
 
+
+
+
+
+---- deployment using ssh https://mow-dfrawy.github.io/Day-4-JS-/   
+
+
