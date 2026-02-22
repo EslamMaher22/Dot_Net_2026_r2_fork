@@ -25,3 +25,7 @@ working area                                staging area                    loca
                                     ---------------------------> Version (commit) 
                                                      git commit -m "message"
                                                                -m: message
+
+          ------------  file must be tracked file (add --> git add fileName) ---------->
+                             git commit -a -m "message"
+                             git commit -am "message"
