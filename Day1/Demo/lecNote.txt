@@ -1,5 +1,13 @@
-> iitailize git : git init
+********************** Agenda ******************* 
+- History of Git (DVCs && CVCs)
+- install git 
+- git commands
+
+> initialize git : git init
 > status : git status
+>VS COde (core editor) : git config --global core.editor "code --wait"
+> remove changes not added : git checkout fileName
+> commit ammend :save changes on last commit : git commit --amend  ====> chages must be added
 > show commits : git log || git log --oneline
 
 -----------> git log  (ID , Auther , Date , Commit_Message) 
@@ -19,10 +27,16 @@ d96c227 docs: update commands of git hub
 1846984 feat:add navbar feature
 7d6b98e docs:add documentation for day1
 
+******************************************************* Link accout github with local git ******************
+                                                           git config --global user.name "iti"
+                                                           git config --global user.email "iti@gmail.com"
+                                  chech configrations :  git config --global user.name
+                                  chech configrations :  git config --global user.email
+                                  chech configrations :  git config --list
+*********************************************************************************************************************
 
 
-
-
+*************************** Git Stages **********************
 
 working area                                staging area                    local repo (.git)                remote repo 
 (pc)                                       (filtaration)                                                    (github) 
@@ -30,7 +44,8 @@ working area                                staging area                    loca
 
    index , about (update)
 
-   ---------------------------------------------->
+   ---------------------------------------------->                                    =============>   git congig --global user.name "mahmoud"   ||  git config --global user.email "mahmoud@gmail.com"
+
            git add fileName || FolderName
            git add file1   file2
            git add .
@@ -56,3 +71,16 @@ working area                                staging area                    loca
                                                            *************************************
                                                            save chages (staged area )
                                                            git reset --soft Head~ (~: N.commits)
+
+                                                           ===============================================>
+                                                            link local repo with remote repo 
+                                                            git remote add origin https://github.com/ayaatadel/Dot_Net_2026_r2.git
+                                                                            (variable --> link repo)
+                                                            -----------> upload all files 
+                                                                         git push origin master
+
+
+
+
+
+                                      
