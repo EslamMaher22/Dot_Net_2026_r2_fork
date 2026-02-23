@@ -6,3 +6,13 @@
 
 ==============> remove commit (git reset --hard Head~~~)
 
+-------> README.md (file (mark down language))  (Documentation)
+=============> install 
+=============> run
+=============> libraies
+=============> os 
+=============> tools
+
+
+----> markup language (HTML)-------> tags ---> text (format)
+----> mark down language ---> text ----> tag (format)

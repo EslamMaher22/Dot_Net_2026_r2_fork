@@ -1,5 +1,7 @@
 -- file .gitignore ---> file used to ignore files and don't uplouad them on git hub
 -- file README.md
+    ---- Example : https://github.com/facebook/react
+    ---- link markdown cheat-sheet : https://www.markdownguide.org/cheat-sheet/
 -- Branches
 -- Pull Request
 -- Stashing
