@@ -36,3 +36,9 @@ linstened         not listened
 
 organization ========> team ==> more than Project(front , back)
 role (members)
+
+
+
+
+
+stash commands
