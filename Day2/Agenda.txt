@@ -1,8 +1,8 @@
--- file .gitignore ---> file used to ignore files and don't uplouad them on git hub
--- file README.md
+--> file .gitignore ---> file used to ignore files and don't uplouad them on git hub
+--> file README.md
     ---- Example : https://github.com/facebook/react
     ---- link markdown cheat-sheet : https://www.markdownguide.org/cheat-sheet/
--- Branches  
+--> Branches  
 (feature (new code || fix || test))
 {
     p1 , p2 , new commer ---> merge 
@@ -25,6 +25,10 @@ switch branch : git switch  eature/create-navbar
                 git checkout branch
 push branch : remote repo : git push origin feature/create-navbar
 create branch + switch : git switch -c feature/create-about
+
+remove branch (local || remote )
+local : git branch -d branchName
+remote : git push origin -d  branchName
  
 [[
  pointer (master)  ===> changes
